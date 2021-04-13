@@ -4139,3 +4139,25 @@ Version: 1.0
     .mhn-slide .owl-next {
         right: -10px
     }
+    /* =============商品詳細介紹============= */
+    
+    .productimg {}
+    
+    .producttext {
+        padding-top: 8vw;
+    }
+    
+    .texttitle {}
+    
+    .textbody {}
+    
+    .productinteivew img {
+        width: 50%;
+    }
+    
+    @media screen and (max-width: 800px) {
+        .productinteivew img {
+            width: 98%;
+        }
+    }
+    /* =============end商品詳細介紹============= */

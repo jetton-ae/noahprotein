@@ -4144,7 +4144,13 @@ Version: 1.0
     .productimg {}
     
     .producttext {
-        padding-top: 8vw;
+        padding-top: 5rem;
+    }
+    
+    @media screen and (max-width: 800px) {
+        .producttext {
+            padding-top: 0rem;
+        }
     }
     
     .texttitle {}

@@ -673,6 +673,14 @@ pre code {
     margin-left: auto
 }
 
+.container1 {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 20vw;
+    margin-right: auto;
+    margin-left: auto
+}
+
 @media (min-width:576px) {
     .container {
         max-width: 540px
@@ -698,6 +706,38 @@ pre code {
 }
 
 .container-fluid {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto
+}
+
+@media (min-width:576px) {
+    .container1 {
+        max-width: 540px
+    }
+}
+
+@media (min-width:768px) {
+    .container1 {
+        max-width: 720px
+    }
+}
+
+@media (min-width:992px) {
+    .container1 {
+        max-width: 960px
+    }
+}
+
+@media (min-width:1200px) {
+    .container1 {
+        max-width: 100%
+    }
+}
+
+.container1-fluid {
     width: 100%;
     padding-right: 15px;
     padding-left: 15px;

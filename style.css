@@ -180,7 +180,7 @@ Version: 1.0
     .header .nav {
         float: right;
         margin: 0;
-        padding-right: 200px;
+        /* padding-right: 200px; */
     }
     
     .header .nav li {

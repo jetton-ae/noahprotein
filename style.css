@@ -180,7 +180,7 @@ Version: 1.0
     .header .nav {
         float: right;
         margin: 0;
-        padding-right: 150px;
+        /* padding-right: 50px; */
     }
     
     .header .nav li {
@@ -4179,7 +4179,7 @@ Version: 1.0
     .textbody {}
     
     .productinteivew img {
-        width: 50%;
+        width: 58%;
     }
     
     @media screen and (max-width: 800px) {

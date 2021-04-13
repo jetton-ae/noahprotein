@@ -5712,7 +5712,7 @@ button.close {
 .carousel-inner {
     position: relative;
     width: 100%;
-    overflow: hidden
+    overflow: hidden;
 }
 
 .carousel-item {

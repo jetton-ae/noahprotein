@@ -4176,9 +4176,16 @@ Version: 1.0
         }
     }
     
-    .texttitle {}
+    .texttitle {
+        color: rgb(20, 165, 160);
+        font-weight: 750;
+        font-size: x-large;
+    }
     
-    .textbody {}
+    .textbody {
+        font-weight: 550;
+        font-size: larger;
+    }
     
     .productinteivew img {
         width: 58%;

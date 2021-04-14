@@ -87,7 +87,7 @@
     }
     .mobile-arrow {
         position: absolute;
-        right: 180px;
+        right: 1rem;
         overflow: 0;
         top: 8px;
         background: transparent;

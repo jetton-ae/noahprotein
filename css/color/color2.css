@@ -44,7 +44,7 @@
 .footer .copyright p a,
 .section-title h1,
 .breadcrumbs ul li+li::before {
-    color: #16A085;
+    color: #ED9027;
 }
 
 .header .search-form .icon,
@@ -103,32 +103,32 @@
 .btn.primary,
 .header .mobile-menu,
 .header .mobile-menu {
-    background: #16A085;
+    background: #ED9027;
 }
 
 .portfolio .cbp-filter-counter::before,
 .team.single .skills .progress .percent::before,
 .about-us .progress .percent::before,
 .radix-tabs .nav-main .nav-tabs li a::before {
-    border-top-color: #16A085;
+    border-top-color: #ED9027;
 }
 
 .header .nav li .dropdown.submenu,
 .portfolio.single blockquote,
 .blogs-main.archives.single blockquote {
-    border-left-color: #16A085;
+    border-left-color: #ED9027;
 }
 
 .portfolio .portfolio-nav,
 .call-to-action::after,
 .radix-tabs .nav-main,
 .contact-us .nice-select::after {
-    border-bottom-color: #16A085;
+    border-bottom-color: #ED9027;
 }
 
 .radix-tabs .nav-main,
 .contact-us .nice-select::after {
-    border-right-color: #16A085;
+    border-right-color: #ED9027;
 }
 
 .hero-area .button .btn.video i,
@@ -149,5 +149,5 @@
 .blogs-main.archives.single .form-group textarea:hover,
 .blogs-main.archives.single .arrow li:hover a,
 .blogs-main.archives .tags ul li a:hover {
-    border-color: #16A085;
+    border-color: #ED9027;
 }

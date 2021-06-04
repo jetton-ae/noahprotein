@@ -54,7 +54,6 @@
     <link rel="stylesheet" href="css/bootstrap.min.css">
 
     <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.2.1/assets/owl.carousel.min.css'>
-
 </head>
 <style>
     .carousel-item>img {
@@ -63,7 +62,8 @@
     }
 </style>
 
-<body>
+<body onload="showalert()">
+    <!-- <input type="button" onclick="showalert()" value="點我跳出提示視窗" /> -->
     <!-- Start Header -->
     <header id="header" class="header">
         <!-- Topbar -->
@@ -141,9 +141,9 @@
                 <div class="col-12 img">
                     <div class="row ">
                         <center>
-                            <div class="img1 wow fadeInLeft" data-wow-delay="0.6s "><img src="images/foodsafe.jpg" alt=""></div>
-                            <div class="img2 wow fadeInDown" data-wow-delay="1.6s "><img src="images/foodsafe.jpg" alt=""></div>
-                            <div class="img3 wow fadeInRight" data-wow-delay="2.2s "><img src="images/foodsafe.jpg" alt=""></div>
+                            <div class="img1 wow fadeInLeft" data-wow-delay="0.6s "><img src="images/關於普羅丁.jpg" alt=""></div>
+                            <div class="img2 wow fadeInDown" data-wow-delay="1.6s "><img src="images/關於普羅丁2.jpg" alt=""></div>
+                            <div class="img3 wow fadeInRight" data-wow-delay="2.2s "><img src="images/關於普羅丁3.jpg" alt=""></div>
                         </center>
                     </div>
                 </div>
@@ -153,6 +153,22 @@
     </section>
     <!--/ End About Us -->
     <!-- 企業情報 -->
+    <section class="blogs-main section ">
+        <div class="container ">
+            <div class="row ">
+                <div class="col-12 wow fadeInUp ">
+                    <div class="section-title ">
+
+                    </div>
+                </div>
+            </div>
+            <div class="row ">
+                <div class="col-12 ">
+                    <div class="row ">
+                    </div>
+                </div>
+            </div>
+    </section>
     <section class="blogs-main section ">
         <div class="container ">
             <div class="row ">
@@ -380,23 +396,18 @@
             </div>
         </div>
     </section> -->
-    <!--/ End Services -->
+    <!--/ End Services-->
 
     <!-- foodsafe -->
     <section class="call-to-action section " data-stellar-background-ratio="0.5 ">
         <div class="container ">
             <div class="row ">
-                <div class="col-lg-6 col-12 wow fadeInUp ">
-                    <a name="foodsafe" id="foodsafe">
-                        <div class="call-to-main ">
-                            <h2>食在安全</h2>
-                            <p>Maecenas sapien erat, porta non porttitor non, dignissim et enim. Aenean ac enim feugiat, facilisis arcu vehicula, consequat sem. Cras et vulputate nisi, ac dignissim mi. Etiam laoreet</p>
-                        </div>
-                    </a>
-                </div>
-                <div class="col-lg-6 col-12 wow fadeInUp ">
-                    <div class="call-to-main ">
+
+                <div class="col-12 wow fadeInUp ">
+                    <div class="section-title ">
+                        <h1>食在安全</h1>
                         <div class="foodsafe"><img src="images/foodsafe.jpg" alt=""></div>
+
                     </div>
                 </div>
             </div>
@@ -502,7 +513,11 @@
             });
         });
     </script>
-
+    <script>
+        function showalert() {
+            alert("這是一個提示訊息！\n「\\n」可以使提示訊息換行。");
+        }
+    </script>
 </body>
 
 </html>
